@@ -1,0 +1,2 @@
+lectura de archivos:
+dos tipos de archivos - texto y binarios
