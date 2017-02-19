@@ -1,0 +1,2 @@
+Patron arquitectonico layer:
+Se requiere de este patron en sistemas grandes que basicamente lo que hace es comunicar capas, imagina un pastel con capas. Estructurar aplicaciones que puedan ser descompuestas en grupos de subtareas, en las que cada grupo de subtareas esta en un nivel particular de  abstraccion(consiste en aislar un elemento de su contexto o del resto de elementos que lo acompañan, se refiere al enfasis en el ¿que hace?) La comunicacion va de arriba hacia abajo pero la respuesta ba de abajo hacia arriba

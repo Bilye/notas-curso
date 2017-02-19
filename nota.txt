@@ -1,2 +1,12 @@
 lectura de archivos:
-dos tipos de archivos - texto y binarios
+-dos tipos de archivos - texto y binarios
+-recuerda siempre abrir(open()) y cerrar(close()) los archivos
+-investigar un poco los permisos
+
+formatos:
+-%.2f: determina el numero de decimales que tendra el numero
+
+
+frameworks
+
+
