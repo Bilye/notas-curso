@@ -1,8 +1,13 @@
 Patron arquitectonico layer:
-Se requiere de este patron en sistemas grandes que basicamente lo que hace es comunicar capas, imagina un pastel con capas. Estructurar aplicaciones que puedan ser descompuestas en grupos de subtareas, en las que cada grupo de subtareas esta en un nivel particular de  abstraccion(consiste en aislar un elemento de su contexto o del resto de elementos que lo acompañan, se refiere al enfasis en el ¿que hace?) La comunicacion va de arriba hacia abajo pero la respuesta ba de abajo hacia arriba, la capa realiza operaciones que delega la capa superior y a la vez esta delega operaciones a la capa inferior, esto permite la comunicacion entre capas
+Se requiere de este patron en sistemas grandes que basicamente lo que hace es comunicar capas, imagina un pastel
+con capas. Estructurar aplicaciones que puedan ser descompuestas en grupos de subtareas, en las que cada grupo de
+subtareas esta en un nivel particular de  abstraccion(consiste en aislar un elemento de su contexto o del resto de
+elementos que lo acompaÃ±an, se refiere al enfasis en el Â¿que hace?) La comunicacion va de arriba hacia abajo pero
+la respuesta ba de abajo hacia arriba, la capa realiza operaciones que delega la capa superior y a la vez esta delega
+operaciones a la capa inferior, esto permite la comunicacion entre capas
 
-Categorias patrones de diseño:
-- Sintomas de un mal diseño:
+Categorias patrones de diseÃ±o:
+- Sintomas de un mal diseÃ±o:
  . Rigidez: que no tiene muchas facilidades para el cambio
  . Fragilidad: que ante un cambio afecta de manera grande, como piezas de domino que ante un cambio se derrumban
  . Inmovilidad: falta de capacidad para poder ser reutilizado, que no puede moverse sin tener que romperse
@@ -16,5 +21,5 @@ Categorias patrones de diseño:
 
 Categorias de patrones(posa)
  . Patrones de arquitectura: capacidad para poder generar subsistemas y especificar responsabilidades, y la manera de comunicacion y como guiarlos
- . Patrones de diseño: Patrones de nivel mas especializados, cada modulo esta implementado
+ . Patrones de diseÃ±o: Patrones de nivel mas especializados, cada modulo esta implementado
  . Idioms/modismos: son los que nos ayudan a poder explotar todos los features(caracteristicas) que los lenguajes tienen
